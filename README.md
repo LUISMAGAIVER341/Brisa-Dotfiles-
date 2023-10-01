@@ -317,6 +317,8 @@ Now run:
     iwr -useb https://luismagaiver341.github.io/Brisa-Dotfiles-/Setup.ps1 | iex
 ```
 
+(Rustup in 32 bits)
+
 Installing GlazeWM will create a folder in ~\AppData\Local\Microsoft\WinGet\Packages\lars-berger.GlazeWM_Microsoft.Winget.Source_(Any crazy token)
 
 So then copy this path and add to PATH variable or create a shortcut and add it to PATH, just run `.\My_cool_shortcut(may be GlazeWM) --config="PATH_TO__FRAPPE_YAML(may be ~\.glaze-wm\frappe.yaml)"`
