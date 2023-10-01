@@ -1,7 +1,7 @@
 cd C:\
 mkdir tools_Nice
 cd tools_Nice
-winget installl JanDeDobbeleer.OhMyPosh
+winget install JanDeDobbeleer.OhMyPosh
 if (!(Test-Path -Path $PROFILE)) {
 	  New-Item -ItemType File -Path $PROFILE -Force
 }
@@ -18,6 +18,7 @@ mkdir "~\.glaze-wm"
 copy ".\frappe.yaml" "~\.glaze-wm"
 Write-Host "Sucess!" -ForegroundColor Green
 Write-Host "Setting up Rust and Viu" -ForegroundColor Magenta
+echo "Rustup in 32 bits"
 .\rustup-init.exe\
 cargo install viu
 Write-Host "Sucess!" -ForegroundColor Green
