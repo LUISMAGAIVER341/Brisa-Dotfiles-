@@ -290,8 +290,37 @@ I have more things, and now i'm showing how to install!
     - Windows 10 32 bits machine or above
     - Cargo, pip, vim and others
     - A litle bit of patience
+    - Scoop and other tools
 
 So run this:
 ```powershell
+    git clone https://github.com/ScoopInstaller/Install.git
+    cd Install
+    .\install.ps1 -ScoopDir 'C:\Applications\Scoop' -ScoopGlobalDir 'C:\GlobalScoopApps' -NoProxy
+```
+
+This will install scoop!
+
+Now run that:
+
+```powershell
+    scoop bucket add nerd-fonts
+    scoop install Cascadia-Code
 
 ```
+
+This will make a freaking installation of Cascadia-Code Nerd, which is probally the best nerd font ever!
+
+Now run:
+
+```powershell
+    
+```
+
+Installing GlazeWM will create a folder in ~\AppData\Local\Microsoft\WinGet\Packages\lars-berger.GlazeWM_Microsoft.Winget.Source_(Any crazy token)
+
+So then copy this path and add to PATH variable
+
+
+
+
